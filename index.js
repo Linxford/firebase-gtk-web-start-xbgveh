@@ -67,6 +67,10 @@ async function main() {
 
   // Initialize the FirebaseUI widget using Firebase
   const ui = new firebaseui.auth.AuthUI(auth);
+}
+main();
+async function main() {
+  // ...
 
   // Listen to RSVP button clicks
   startRsvpButton.addEventListener("click",
